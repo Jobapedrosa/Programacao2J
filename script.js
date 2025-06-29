@@ -19,12 +19,12 @@ item.textContent = linguagens[1];
 item.textContent = linguagens[2];
 
 
-const aluno1 = {
-  nome: "Gabriel",
-  idade: 13,
-  anoLetivo: "2ªsérie",
-  materiasFavoritas: ["Geografia", "Programação", "Arte"] 
-}
+//const aluno1 = {
+  ///nome: "Gabriel",
+  //idade: 13,
+  //anoLetivo: "2ªsérie",
+  //materiasFavoritas: ["Geografia", "Programação", "Arte"] 
+//}
 //console.log(aluno1.nome) // “Gabriel”
 //console.log(aluno1.idade) // 13
 //console.log(aluno1.materiaFavorita)
@@ -32,10 +32,10 @@ const aluno1 = {
 //console.log(aluno1.materiaFavorita[1])  //Programação
 
 
-const item = document.querySelector("#aluno");
-item.textContent = aluno1.nome;
-item.textContent = aluno1.idade;
-item.textContent = aluno1.materiasFavoritas[1];
+//const item = document.querySelector("#aluno");
+//item.textContent = aluno1.nome;
+//item.textContent = aluno1.idade;
+//item.textContent = aluno1.materiasFavoritas[1];
 
 //const texto = document.querySelector('#entrada-de-texto').value;
 //const campoResultado = document.querySelector('#resultado-palavrachave');
