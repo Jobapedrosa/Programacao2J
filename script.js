@@ -7,9 +7,9 @@ function inserirNome(){
 inserirNome();
 
 let linguagens = ["JavaScript","Python","C++"];
-console.log(linguagens[0]);// “JavaScript”
-console.log(linguagens[1]); // “Python”
-console.log(linguagens[2]); // “C++”
+//console.log(linguagens[0]);// “JavaScript”
+//console.log(linguagens[1]); // “Python”
+//console.log(linguagens[2]); // “C++”
 
 const item = document.querySelector("#lista");
 
@@ -25,11 +25,11 @@ const aluno1 = {
   anoLetivo: "2ªsérie",
   materiasFavoritas: ["Geografia", "Programação", "Arte"] 
 }
-console.log(aluno1.nome) // “Gabriel”
-console.log(aluno1.idade) // 13
-console.log(aluno1.materiaFavorita)
+//console.log(aluno1.nome) // “Gabriel”
+//console.log(aluno1.idade) // 13
+//console.log(aluno1.materiaFavorita)
 // "Geografia","Programação","Arte"
-console.log(aluno1.materiaFavorita[1])  //Programação
+//console.log(aluno1.materiaFavorita[1])  //Programação
 
 
 const item = document.querySelector("#aluno");
@@ -42,23 +42,24 @@ const campoResultado = document.querySelector('#resultado-palavrachave');
 const palavras = texto.split(" ");
 campoResultado.textContent = palavras[0]
 
-let perguntas = [
-  {
-    enunciado: "Pergunta 1",
-    alternativas: ["pergunta1","pergunta2","pergunta3"]
-  },
-  {
-    enunciado: "Pergunta 1",
-    alternativas: ["pergunta1","pergunta2","pergunta3"]
-  }
-]
-let atual = 0;
-let perguntaAtual;
-function mostraPergunta() {
-  perguntaAtual = perguntas[atual]; // perguntas[0]
-  caixaPerguntas.textContent = perguntaAtual.enunciado;
-}
-pergunta[0].enunciado;
+//let perguntas = [
+  //{
+   // enunciado: "Pergunta 1",
+    //alternativas: ["pergunta1","pergunta2","pergunta3"]
+  //},
+  //{
+   // enunciado: "Pergunta 1",
+   // alternativas: ["pergunta1","pergunta2","pergunta3"]
+ // }
+//]
+  
+//let atual = 0;
+//let perguntaAtual;
+//function mostraPergunta() {
+  //perguntaAtual = perguntas[atual]; // perguntas[0]
+  //caixaPerguntas.textContent = perguntaAtual.enunciado;
+//}
+//pergunta[0].enunciado;
 
 
 function mudarCor(){
