@@ -37,10 +37,10 @@ item.textContent = aluno1.nome;
 item.textContent = aluno1.idade;
 item.textContent = aluno1.materiasFavoritas[1];
 
-const texto = document.querySelector('#entrada-de-texto').value;
-const campoResultado = document.querySelector('#resultado-palavrachave');
-const palavras = texto.split(" ");
-campoResultado.textContent = palavras[0]
+//const texto = document.querySelector('#entrada-de-texto').value;
+//const campoResultado = document.querySelector('#resultado-palavrachave');
+//const palavras = texto.split(" ");
+//campoResultado.textContent = palavras[0]
 
 //let perguntas = [
   //{
