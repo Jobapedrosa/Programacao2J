@@ -14,10 +14,10 @@ let linguagens = ["JavaScript","Python","C++"];
 const item = document.querySelector("#lista");
 
 
-item.textContent = linguagens[0]; //“JavaScript”
-item.textContent = linguagens[1]; //“Python”
-item.textContent = linguagens[2]; // “C++”
-
+//item.textContent = linguagens[0]; //“JavaScript”
+//item.textContent = linguagens[1]; //“Python”
+//item.textContent = linguagens[2]; // “C++”
+item.textContent = `${linguagens[0]}, ${linguagens[1]} e ${linguagens[2]}`;
 
 let aluno1 = {
   nome: "Gabriel",
