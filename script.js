@@ -41,7 +41,7 @@ objeto.textContent = aluno1.nome;
 
 function mudarCor(){
   const elemento = document.getElementById("nome-usuário");
-  elemento.style.color = "red";
+  elemento.style.color = "blue";
  
 }
 mudarCor();
