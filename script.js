@@ -17,7 +17,14 @@ const item = document.querySelector("#lista");
 //item.textContent = linguagens[0]; //“JavaScript”
 //item.textContent = linguagens[1]; //“Python”
 //item.textContent = linguagens[2]; // “C++”
-item.textContent = `${linguagens[0]}, ${linguagens[1]} e ${linguagens[2]}`;
+//item.textContent = `${linguagens[0]}, ${linguagens[1]} e ${linguagens[2]}`;
+for (const linguagem of linguagens) {
+  const itemDaLista = document.createElement("li");
+  itemDaLista.textContent = linguagem;
+  item.appendChild(itemDaLista);
+}
+
+
 
 let aluno1 = {
   nome: "Gabriel",
