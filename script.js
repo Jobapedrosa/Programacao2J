@@ -6,7 +6,7 @@ function inserirNome(){
 }
 inserirNome();
 
-let linguagens = ["JavaScript","Python","C++"];
+let linguagens = ["JavaScript","Python","C++","PHP"];
 //console.log(linguagens[0]);// “JavaScript”
 //console.log(linguagens[1]); // “Python”
 //console.log(linguagens[2]); // “C++”
@@ -19,9 +19,7 @@ const item = document.querySelector("#lista");
 //item.textContent = linguagens[2]; // “C++”
 //item.textContent = `${linguagens[0]}, ${linguagens[1]} e ${linguagens[2]}`;
 for (const linguagem of linguagens) {
-  const itemDaLista = document.createElement("li");
-  itemDaLista.textContent = linguagem;
-  item.appendChild(itemDaLista);
+  item.innerHTML += `<li>${linguagem}</li>`;
 }
 
 
